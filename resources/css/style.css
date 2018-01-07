@@ -9,10 +9,21 @@ body {
     text-align: center;
 }
 
+h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+h4 {
+    margin: 0;
+    padding: 10px;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 /* Header & Nav Styling */
 header {
+    background-color: black;
     display: flex;
     width: 100%;
     position: fixed;
@@ -49,9 +60,36 @@ nav span {
 }
 
 /* Logo Styling */
-.logo img {
+header div img {
     height: 50px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
+/* Parent Container to all Body Content */
+.mainContainer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    top: 69px;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* Container for the misson statement */
+.missionContainer {
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Mission Statement styling */
+.missionContainer div {
+    width: 100%;
+    background-color: black;
+}
