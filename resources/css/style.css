@@ -1,9 +1,37 @@
 /* Body Styling, initial font family, color & alignment ( & Opacity ) */
 body {
+    margin: 0;
     background-color: black;
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     opacity: 0.9;
     text-align: center;
+}
+
+/* Header & Nav Styling */
+header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    align-content: center;
+    z-index: 1;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+nav span {
+    display: inline-block;
+    align-content: center;
+    margin-right: 10px;
+}
+
+.navLink {
+    text-decoration: underline;
+}
+
+/* Logo Styling */
+.logo {
+    height: 50px;
+    margin-left: 10px;
 }
