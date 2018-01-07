@@ -19,6 +19,13 @@ h4 {
     padding: 10px;
 }
 
+/* To save time later on - give the individual sections ID's, as they only show once. */
+.flexContainer {
+    display: flex;
+    flex-wrap: center;
+    justify-content: center;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 /* Header & Nav Styling */
@@ -67,29 +74,38 @@ header div img {
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 /* Parent Container to all Body Content */
-.mainContainer {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    width: 100%;
-    top: 69px;
-    text-align: center;
+#main {
+    width: 1200px;
+    padding-top: 69px;
+    margin: auto;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 /* Container for the misson statement */
-.missionContainer {
+#missionContainer {
     height: 700px;
     width: 1200px;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-    display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 /* Mission Statement styling */
-.missionContainer div {
+#missionContainer div {
     width: 100%;
     background-color: black;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* Container for the Tea of the Month container */
+#teaContainer {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+#teaContainer div {
+    width: 100%;
 }
