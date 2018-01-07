@@ -9,29 +9,45 @@ body {
     text-align: center;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
 /* Header & Nav Styling */
 header {
     display: flex;
     width: 100%;
     position: fixed;
-    align-content: center;
+    align-items: center;
     z-index: 1;
     height: 69px;
     border-bottom: 1px solid seashell;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+header nav {
+    padding-right: 20px;
+}
+
 nav span {
     display: inline-block;
-    align-content: center;
-    margin-right: 10px;
+    align-items: center;
+    margin-right: 20px;
 }
 
 .navLink {
+    color: seashell;
     text-decoration: underline;
 }
 
 /* Logo Styling */
-.logo {
+.logo img {
     height: 50px;
-    margin-left: 10px;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
