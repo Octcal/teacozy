@@ -166,3 +166,21 @@ header div img {
     opacity: 1;
     background-color: black;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* Contact Container */
+#contactContainer {
+    height: 200px;
+    padding-top: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* Copyright Text */
+#copyrightContainer {
+    width: 100%;
+    margin-left: 20px;
+    text-align: left;
+}
+
